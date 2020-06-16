@@ -22,9 +22,9 @@ const dataResult = (event) => {
   let answer = document.querySelector(".ans").innerHTML;
 
     if (dataSearched === answer) {
-      return (console.log("True"))
+      return (setcorrectCount(correctCount + 1))
     } else {
-      return (console.log('Failed'))
+      return (setwrongCount(wrongCount + 1))
     }
   }
 
@@ -46,7 +46,8 @@ const dataResult = (event) => {
       </form>
 
       <button>Click</button>
-
+      <p>Correct Answers: {correctCount}</p>
+      <p>Wrong Answers: {wrongCount}</p>
     </div>
   );
 }
