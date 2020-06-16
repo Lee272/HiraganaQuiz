@@ -42,12 +42,12 @@ const dataResult = (event) => {
           <input type="text" name="searchText" />
           <button className="ma2">Next</button>
         </div>
-
       </form>
 
-      <button>Click</button>
-      <p>Correct Answers: {correctCount}</p>
-      <p>Wrong Answers: {wrongCount}</p>
+      <div>
+        <p>Correct Answers: {correctCount}</p>
+        <p>Wrong Answers: {wrongCount}</p>
+      </div>
     </div>
   );
 }
