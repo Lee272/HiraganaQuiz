@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import ImagePlaceHolder from './Components/ImagePlaceHolder';
+import Card from './Components/Card';
 
 export default function App() {
 // States
@@ -48,6 +49,7 @@ const dataResult = (event) => {
         <p>Correct Answers: {correctCount}</p>
         <p>Wrong Answers: {wrongCount}</p>
       </div>
+      <Card />
     </div>
   );
 }
