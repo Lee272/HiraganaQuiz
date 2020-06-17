@@ -38,7 +38,7 @@ const dataResult = (event) => {
 
 // Verifications
 const correct1 = () => {
-  if (correctCount === 10){
+  if (correctCount > 1){
     setcorrect(true)
   }
 }
@@ -66,7 +66,10 @@ const correct1 = () => {
           <button onClick={ () => setwip(true)}>Switch to Katakana</button>
             { wip && <p className="red">Under Construction!</p>}
         </div>
-          {!correct1 && <Timer />}
+        <div className="tc ma3">
+          <button onClick={correct1}>Timer</button>
+          {correct && <Timer />}
+        </div>
       </div>
     </div>
   );
