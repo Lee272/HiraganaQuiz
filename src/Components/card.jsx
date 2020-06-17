@@ -28,6 +28,3 @@ const [disabledText, setdisabledText] = useState("true");
     </div>
   )
 }
-
-// className={isToggled ? "toggledButtonId toggled" : "toggledButtonId"}
-//                         onClick={() => toggleButton(button)}>
