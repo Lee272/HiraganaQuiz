@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function Card(props) {
 // States
-const [disabledText, setdisabledText] = useState(true);
+const [disabledText, setdisabledText] = useState("true");
 
 // Functions
 // Toggle Romanji Text

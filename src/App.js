@@ -22,6 +22,7 @@ const dataResult = (event) => {
   const dataSearched = event.target.searchText.value
   .toLowerCase()
   .trim();
+  event.target.reset()
 
     if (dataSearched === randomResult2) {
       return (setcorrectCount(correctCount + 1))
