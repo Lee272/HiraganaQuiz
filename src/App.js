@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import './style.css';
 import Card from './Components/Card';
 import Hiragana from './Components/Data/Data.json';
 
@@ -39,15 +40,15 @@ const dataResult = (event) => {
         </div>
 
         <form onSubmit={event => {dataResult(event)}}>
-          <div class="ma2">
+          <div class="ma2 tc">
             <input type="text" name="searchText" />
             <button className="ma2">Next</button>
           </div>
         </form>
 
-        <div className="ma2">
-          <p>Correct Answers: {correctCount}</p>
-          <p>Wrong Answers: {wrongCount}</p>
+        <div className="ma2 tc">
+          <p>Correct Answers: <span className="green">{correctCount}</span></p>
+          <p>Wrong Answers: <span className="red">{wrongCount}</span></p>
         </div>
       </div>
     </div>
