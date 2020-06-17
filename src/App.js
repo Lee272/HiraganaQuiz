@@ -9,11 +9,9 @@ const dataObject = Hiragana;
 // States
 const [correctCount, setcorrectCount] = useState(0);
 const  [wrongCount, setwrongCount] = useState(0);
+
 // Functions
 
-// Randomizer - Array
-// const randomResult = 
-//     Data[Math.floor(Math.random()*Data.length)];
 // Randomizer - Object
 const prep = Math.floor(Math.random()*dataObject["length"])
 const randomResult2 = dataObject[prep]["name"]
