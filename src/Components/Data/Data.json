@@ -1,0 +1,191 @@
+[
+    {
+        "name": "a",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/01_a.jpg"
+    },
+    {
+        "name": "i",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/02_i.jpg"
+    },
+    {
+        "name": "u",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/03_u.jpg"
+    },
+    {
+        "name": "e",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/04_e.jpg"
+    },
+    {
+        "name": "o",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/05_o.jpg"
+    },
+    {
+        "name": "ka",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/06_ka.jpg"
+    },
+    {
+        "name": "ki",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/07_ki.jpg"
+    },
+    {
+        "name": "ku",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/08_ku.jpg"
+    },
+    {
+        "name": "ke",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/09_ke.jpg"
+    },
+    {
+        "name": "ko",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/10_ko.jpg"
+    },
+    {
+        "name": "sa",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/11_sa.jpg"
+    },
+    {
+        "name": "shi",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/12_shi.jpg"
+    },
+    {
+        "name": "su",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/13_su.jpg"
+    },
+    {
+        "name": "se",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/14_se.jpg"
+    },
+    {
+        "name": "so",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/15_so.jpg"
+    },
+    {
+        "name": "ta",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/16_ta.jpg"
+    },
+    {
+        "name": "chi",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/17_chi.jpg"
+    },
+    {
+        "name": "tsu",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/18_tsu.jpg"
+    },
+    {
+        "name": "te",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/19_te.jpg"
+    },
+    {
+        "name": "to",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/20_to.jpg"
+    },
+    {
+        "name": "na",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/21_na.jpg"
+    },
+    {
+        "name": "ni",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/22_ni.jpg"
+    },
+    {
+        "name": "nu",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/23_nu.jpg"
+    },
+    {
+        "name": "ne",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/24_ne.jpg"
+    },
+    {
+        "name": "no",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/25_no.jpg"
+    },
+    {
+        "name": "ha",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/26_ha.jpg"
+    },
+    {
+        "name": "hi",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/27_hi.jpg"
+    },
+    {
+        "name": "fu",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/28_fu.jpg"
+    },
+    {
+        "name": "he",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/29_he.jpg"
+    },
+    {
+        "name": "ho",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/30_ho.jpg"
+    },
+    {
+        "name": "ma",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/31_ma.jpg"
+    },
+    {
+        "name": "mi",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/32_mi.jpg"
+    },
+    {
+        "name": "mu",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/33_mu.jpg"
+    },
+    {
+        "name": "me",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/34_me.jpg"
+    },
+    {
+        "name": "mo",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/35_mo.jpg"
+    },
+    {
+        "name": "ya",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/36_ya.jpg"
+    },
+    {
+        "name": "yu",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/37_yu.jpg"
+    },
+    {
+        "name": "yo",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/38_yo.jpg"
+    },
+    {
+        "name": "ra",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/39_ra.jpg"
+    },
+    {
+        "name": "ri",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/40_ri.jpg"
+    },
+    {
+        "name": "ru",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/41_ru.jpg"
+    },
+    {
+        "name": "re",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/42_re.jpg"
+    },
+    {
+        "name": "ro",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/43_ro.jpg"
+    },
+    {
+        "name": "wa",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/44_wa.jpg"
+    },
+    {
+        "name": "wo",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/45_wo.jpg"
+    },
+    {
+        "name": "n",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/46_n.jpg"
+    },
+    {
+        "name": "ri",
+        "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/40_ri.jpg"
+    }
+    
+]
