@@ -1,0 +1,22 @@
+[
+  {
+    "name": "a",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Japanese_Katakana_kyokashotai_A.svg/1024px-Japanese_Katakana_kyokashotai_A.svg.png"
+  },
+  {
+    "name": "i",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Japanese_Katakana_kyokashotai_I.svg/1024px-Japanese_Katakana_kyokashotai_I.svg.png"
+  },
+  {
+    "name": "u",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Japanese_Katakana_kyokashotai_U.svg/1024px-Japanese_Katakana_kyokashotai_U.svg.png"
+  },
+  {
+    "name": "e",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Japanese_Katakana_kyokashotai_E.svg/1024px-Japanese_Katakana_kyokashotai_E.svg.png"
+  },
+  {
+    "name": "o",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Japanese_Katakana_kyokashotai_O.svg/1024px-Japanese_Katakana_kyokashotai_O.svg.png"
+  }
+]
