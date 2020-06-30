@@ -32,7 +32,7 @@ export default function App() {
     const dataSearched = event.target.searchText.value.toLowerCase().trim();
     event.target.reset();
 
-    if (dataSearched === randomResult3) {
+    if (dataSearched === randomResult2 || dataSearched === randomResult3) {
       return setcorrectCount(correctCount + 1);
     } else {
       return setwrongCount(wrongCount + 1);
@@ -56,7 +56,7 @@ export default function App() {
   return (
     <div className="w-100">
       {console.log("Katakana", dataObjectKata)}
-      <h1 className="tc calisto">Hiragana Quiz</h1>
+      <h1 className="tc calisto">Japanese Writing Quiz</h1>
       <div>
         <div className="tc">
           {hiraganaState && (

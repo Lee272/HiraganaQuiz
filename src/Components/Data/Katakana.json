@@ -18,5 +18,169 @@
   {
     "name": "o",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Japanese_Katakana_kyokashotai_O.svg/1024px-Japanese_Katakana_kyokashotai_O.svg.png"
+  },
+  {
+    "name": "ka",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Japanese_Katakana_kyokashotai_KA.svg/1024px-Japanese_Katakana_kyokashotai_KA.svg.png"
+  },
+  {
+    "name": "ki",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Japanese_Katakana_kyokashotai_KI.svg/1024px-Japanese_Katakana_kyokashotai_KI.svg.png"
+  },
+  {
+    "name": "ku",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Japanese_Katakana_kyokashotai_KU.svg/1024px-Japanese_Katakana_kyokashotai_KU.svg.png"
+  },
+  {
+    "name": "ke",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Japanese_Katakana_kyokashotai_KE.svg/1024px-Japanese_Katakana_kyokashotai_KE.svg.png"
+  },
+  {
+    "name": "ko",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Japanese_Katakana_kyokashotai_KO.svg/1024px-Japanese_Katakana_kyokashotai_KO.svg.png"
+  },
+  {
+    "name": "sa",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Japanese_Katakana_kyokashotai_SA.svg/1024px-Japanese_Katakana_kyokashotai_SA.svg.png"
+  },
+  {
+    "name": "shi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Japanese_Katakana_kyokashotai_SI.svg/1024px-Japanese_Katakana_kyokashotai_SI.svg.png"
+  },
+  {
+    "name": "su",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Japanese_Katakana_kyokashotai_SU.svg/1024px-Japanese_Katakana_kyokashotai_SU.svg.png"
+  },
+  {
+    "name": "se",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Japanese_Katakana_kyokashotai_SE.svg/1024px-Japanese_Katakana_kyokashotai_SE.svg.png"
+  },
+  {
+    "name": "so",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Japanese_Katakana_kyokashotai_SO.svg/1024px-Japanese_Katakana_kyokashotai_SO.svg.png"
+  },
+  {
+    "name": "ta",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Japanese_Katakana_kyokashotai_TA.svg/1024px-Japanese_Katakana_kyokashotai_TA.svg.png"
+  },
+  {
+    "name": "chi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Japanese_Katakana_kyokashotai_TI.svg/1024px-Japanese_Katakana_kyokashotai_TI.svg.png"
+  },
+  {
+    "name": "tsu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Japanese_Katakana_kyokashotai_TU.svg/1024px-Japanese_Katakana_kyokashotai_TU.svg.png"
+  },
+  {
+    "name": "te",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Japanese_Katakana_kyokashotai_TE.svg/1024px-Japanese_Katakana_kyokashotai_TE.svg.png"
+  },
+  {
+    "name": "to",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Japanese_Katakana_kyokashotai_TO.svg/1024px-Japanese_Katakana_kyokashotai_TO.svg.png"
+  },
+  {
+    "name": "na",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Japanese_Katakana_kyokashotai_NA.svg/1024px-Japanese_Katakana_kyokashotai_NA.svg.png"
+  },
+  {
+    "name": "ni",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Japanese_Katakana_kyokashotai_NI.svg/1024px-Japanese_Katakana_kyokashotai_NI.svg.png"
+  },
+  {
+    "name": "nu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Japanese_Katakana_kyokashotai_NU.svg/1024px-Japanese_Katakana_kyokashotai_NU.svg.png"
+  },
+  {
+    "name": "ne",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Japanese_Katakana_kyokashotai_NE.svg/1024px-Japanese_Katakana_kyokashotai_NE.svg.png"
+  },
+  {
+    "name": "no",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Japanese_Katakana_kyokashotai_NO.svg/1024px-Japanese_Katakana_kyokashotai_NO.svg.png"
+  },
+  {
+    "name": "ha",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Japanese_Katakana_kyokashotai_HA.svg/1024px-Japanese_Katakana_kyokashotai_HA.svg.png"
+  },
+  {
+    "name": "hi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Japanese_Katakana_kyokashotai_HI.svg/1024px-Japanese_Katakana_kyokashotai_HI.svg.png"
+  },
+  {
+    "name": "fu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Japanese_Katakana_kyokashotai_HU.svg/1024px-Japanese_Katakana_kyokashotai_HU.svg.png"
+  },
+  {
+    "name": "he",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Japanese_Katakana_kyokashotai_HE.svg/1024px-Japanese_Katakana_kyokashotai_HE.svg.png"
+  },
+  {
+    "name": "ho",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Japanese_Katakana_kyokashotai_HO.svg/1024px-Japanese_Katakana_kyokashotai_HO.svg.png"
+  },
+  {
+    "name": "ma",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Japanese_Katakana_kyokashotai_MA.svg/1024px-Japanese_Katakana_kyokashotai_MA.svg.png"
+  },
+  {
+    "name": "mi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Japanese_Katakana_kyokashotai_MI.svg/1024px-Japanese_Katakana_kyokashotai_MI.svg.png"
+  },
+  {
+    "name": "mu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Japanese_Katakana_kyokashotai_MU.svg/1024px-Japanese_Katakana_kyokashotai_MU.svg.png"
+  },
+  {
+    "name": "me",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Japanese_Katakana_kyokashotai_ME.svg/1024px-Japanese_Katakana_kyokashotai_ME.svg.png"
+  },
+  {
+    "name": "mo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Katakana_kyokashotai_MO.svg/1024px-Japanese_Katakana_kyokashotai_MO.svg.png"
+  },
+  {
+    "name": "ya",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Japanese_Katakana_kyokashotai_YA.svg/1024px-Japanese_Katakana_kyokashotai_YA.svg.png"
+  },
+  {
+    "name": "yu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Japanese_Katakana_kyokashotai_YU.svg/1024px-Japanese_Katakana_kyokashotai_YU.svg.png"
+  },
+  {
+    "name": "yo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Japanese_Katakana_kyokashotai_YO.svg/1024px-Japanese_Katakana_kyokashotai_YO.svg.png"
+  },
+  {
+    "name": "ra",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Japanese_Katakana_kyokashotai_RA.svg/1024px-Japanese_Katakana_kyokashotai_RA.svg.png"
+  },
+  {
+    "name": "ri",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Japanese_Katakana_kyokashotai_RI.svg/1024px-Japanese_Katakana_kyokashotai_RI.svg.png"
+  },
+  {
+    "name": "ru",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Japanese_Katakana_kyokashotai_RU.svg/1024px-Japanese_Katakana_kyokashotai_RU.svg.png"
+  },
+  {
+    "name": "re",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Japanese_Katakana_kyokashotai_RE.svg/1024px-Japanese_Katakana_kyokashotai_RE.svg.png"
+  },
+  {
+    "name": "ro",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Japanese_Katakana_kyokashotai_RO.svg/1024px-Japanese_Katakana_kyokashotai_RO.svg.png"
+  },
+  {
+    "name": "wa",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Japanese_Katakana_kyokashotai_WA.svg/1024px-Japanese_Katakana_kyokashotai_WA.svg.png"
+  },
+  {
+    "name": "wo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Japanese_Katakana_kyokashotai_WO.svg/1024px-Japanese_Katakana_kyokashotai_WO.svg.png"
+  },
+  {
+    "name": "n",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Japanese_Katakana_kyokashotai_N.svg/1024px-Japanese_Katakana_kyokashotai_N.svg.png"
   }
 ]

@@ -1,190 +1,186 @@
 [
   {
     "name": "a",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/01_a.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Japanese_Hiragana_kyokashotai_A.svg/1024px-Japanese_Hiragana_kyokashotai_A.svg.png"
   },
   {
     "name": "i",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/02_i.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Japanese_Hiragana_kyokashotai_I.svg/1024px-Japanese_Hiragana_kyokashotai_I.svg.png"
   },
   {
     "name": "u",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/03_u.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Japanese_Hiragana_kyokashotai_U.svg/1024px-Japanese_Hiragana_kyokashotai_U.svg.png"
   },
   {
     "name": "e",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/04_e.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Japanese_Hiragana_kyokashotai_E.svg/1024px-Japanese_Hiragana_kyokashotai_E.svg.png"
   },
   {
     "name": "o",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/05_o.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Japanese_Hiragana_kyokashotai_O.svg/1024px-Japanese_Hiragana_kyokashotai_O.svg.png"
   },
   {
     "name": "ka",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/06_ka.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Japanese_Hiragana_kyokashotai_KA.svg/1024px-Japanese_Hiragana_kyokashotai_KA.svg.png"
   },
   {
     "name": "ki",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/07_ki.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Japanese_Hiragana_kyokashotai_KI.svg/1024px-Japanese_Hiragana_kyokashotai_KI.svg.png"
   },
   {
     "name": "ku",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/08_ku.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Japanese_Hiragana_kyokashotai_KU.svg/1024px-Japanese_Hiragana_kyokashotai_KU.svg.png"
   },
   {
     "name": "ke",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/09_ke.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Japanese_Hiragana_kyokashotai_KE.svg/1024px-Japanese_Hiragana_kyokashotai_KE.svg.png"
   },
   {
     "name": "ko",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/10_ko.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Japanese_Hiragana_kyokashotai_KO.svg/1024px-Japanese_Hiragana_kyokashotai_KO.svg.png"
   },
   {
     "name": "sa",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/11_sa.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Japanese_Hiragana_kyokashotai_SA.svg/1024px-Japanese_Hiragana_kyokashotai_SA.svg.png"
   },
   {
     "name": "shi",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/12_shi.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Japanese_Hiragana_kyokashotai_SI.svg/1024px-Japanese_Hiragana_kyokashotai_SI.svg.png"
   },
   {
     "name": "su",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/13_su.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Japanese_Hiragana_kyokashotai_SU.svg/1024px-Japanese_Hiragana_kyokashotai_SU.svg.png"
   },
   {
     "name": "se",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/14_se.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Japanese_Hiragana_kyokashotai_SE.svg/1024px-Japanese_Hiragana_kyokashotai_SE.svg.png"
   },
   {
     "name": "so",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/15_so.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Japanese_Hiragana_kyokashotai_SO.svg/1024px-Japanese_Hiragana_kyokashotai_SO.svg.png"
   },
   {
     "name": "ta",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/16_ta.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Japanese_Hiragana_kyokashotai_TA.svg/1024px-Japanese_Hiragana_kyokashotai_TA.svg.png"
   },
   {
     "name": "chi",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/17_chi.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Japanese_Hiragana_kyokashotai_TI.svg/1024px-Japanese_Hiragana_kyokashotai_TI.svg.png"
   },
   {
     "name": "tsu",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/18_tsu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Japanese_Hiragana_kyokashotai_TU.svg/1024px-Japanese_Hiragana_kyokashotai_TU.svg.png"
   },
   {
     "name": "te",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/19_te.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Japanese_Hiragana_kyokashotai_TE.svg/1024px-Japanese_Hiragana_kyokashotai_TE.svg.png"
   },
   {
     "name": "to",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/20_to.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Japanese_Hiragana_kyokashotai_TO.svg/1024px-Japanese_Hiragana_kyokashotai_TO.svg.png"
   },
   {
     "name": "na",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/21_na.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Japanese_Hiragana_kyokashotai_NA.svg/1024px-Japanese_Hiragana_kyokashotai_NA.svg.png"
   },
   {
     "name": "ni",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/22_ni.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Japanese_Hiragana_kyokashotai_NI.svg/1024px-Japanese_Hiragana_kyokashotai_NI.svg.png"
   },
   {
     "name": "nu",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/23_nu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Japanese_Hiragana_kyokashotai_NU.svg/1024px-Japanese_Hiragana_kyokashotai_NU.svg.png"
   },
   {
     "name": "ne",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/24_ne.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Japanese_Hiragana_kyokashotai_NE.svg/1024px-Japanese_Hiragana_kyokashotai_NE.svg.png"
   },
   {
     "name": "no",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/25_no.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Japanese_Hiragana_kyokashotai_NO.svg/1024px-Japanese_Hiragana_kyokashotai_NO.svg.png"
   },
   {
     "name": "ha",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/26_ha.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Japanese_Hiragana_kyokashotai_HA.svg/1024px-Japanese_Hiragana_kyokashotai_HA.svg.png"
   },
   {
     "name": "hi",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/27_hi.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/%E3%81%B2_%E6%95%99%E7%A7%91%E6%9B%B8%E4%BD%93.svg/1024px-%E3%81%B2_%E6%95%99%E7%A7%91%E6%9B%B8%E4%BD%93.svg.png"
   },
   {
     "name": "fu",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/28_fu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Japanese_Hiragana_kyokashotai_HU.svg/1024px-Japanese_Hiragana_kyokashotai_HU.svg.png"
   },
   {
     "name": "he",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/29_he.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Japanese_Hiragana_kyokashotai_HE.svg/1024px-Japanese_Hiragana_kyokashotai_HE.svg.png"
   },
   {
     "name": "ho",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/30_ho.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Japanese_Hiragana_kyokashotai_HO.svg/1024px-Japanese_Hiragana_kyokashotai_HO.svg.png"
   },
   {
     "name": "ma",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/31_ma.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Japanese_Hiragana_kyokashotai_MA.svg/1024px-Japanese_Hiragana_kyokashotai_MA.svg.png"
   },
   {
     "name": "mi",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/32_mi.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Japanese_Hiragana_kyokashotai_MI.svg/1024px-Japanese_Hiragana_kyokashotai_MI.svg.png"
   },
   {
     "name": "mu",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/33_mu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Japanese_Hiragana_kyokashotai_MU.svg/1024px-Japanese_Hiragana_kyokashotai_MU.svg.png"
   },
   {
     "name": "me",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/34_me.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Japanese_Hiragana_kyokashotai_ME.svg/1024px-Japanese_Hiragana_kyokashotai_ME.svg.png"
   },
   {
     "name": "mo",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/35_mo.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Japanese_Hiragana_kyokashotai_MO.svg/1024px-Japanese_Hiragana_kyokashotai_MO.svg.png"
   },
   {
     "name": "ya",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/36_ya.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Japanese_Hiragana_kyokashotai_YA.svg/1024px-Japanese_Hiragana_kyokashotai_YA.svg.png"
   },
   {
     "name": "yu",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/37_yu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Japanese_Hiragana_kyokashotai_YU.svg/1024px-Japanese_Hiragana_kyokashotai_YU.svg.png"
   },
   {
     "name": "yo",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/38_yo.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Japanese_Hiragana_kyokashotai_YO.svg/1024px-Japanese_Hiragana_kyokashotai_YO.svg.png"
   },
   {
     "name": "ra",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/39_ra.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Japanese_Hiragana_kyokashotai_RA.svg/1024px-Japanese_Hiragana_kyokashotai_RA.svg.png"
   },
   {
     "name": "ri",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/40_ri.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Japanese_Hiragana_kyokashotai_RI.svg/1024px-Japanese_Hiragana_kyokashotai_RI.svg.png"
   },
   {
     "name": "ru",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/41_ru.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Japanese_Hiragana_kyokashotai_RU.svg/1024px-Japanese_Hiragana_kyokashotai_RU.svg.png"
   },
   {
     "name": "re",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/42_re.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Japanese_Hiragana_kyokashotai_RE.svg/1024px-Japanese_Hiragana_kyokashotai_RE.svg.png"
   },
   {
     "name": "ro",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/43_ro.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Japanese_Hiragana_kyokashotai_RO.svg/1024px-Japanese_Hiragana_kyokashotai_RO.svg.png"
   },
   {
     "name": "wa",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/44_wa.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Japanese_Hiragana_kyokashotai_WA.svg/1024px-Japanese_Hiragana_kyokashotai_WA.svg.png"
   },
   {
     "name": "wo",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/45_wo.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Japanese_Hiragana_kyokashotai_WO.svg/1024px-Japanese_Hiragana_kyokashotai_WO.svg.png"
   },
   {
     "name": "n",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/46_n.jpg"
-  },
-  {
-    "name": "ri",
-    "image": "http://www.dartmouth.edu/~introjpn/text/hiragana/hiragana_files/40_ri.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Japanese_Hiragana_kyokashotai_N.svg/1024px-Japanese_Hiragana_kyokashotai_N.svg.png"
   }
 ]
