@@ -41,7 +41,7 @@ export default function App() {
 
   // Verifications
   const correct1 = () => {
-    if (correctCount > 1) {
+    if (correctCount === 0) {
       setcorrect(true);
     }
   };
@@ -55,7 +55,6 @@ export default function App() {
 
   return (
     <div className="w-100">
-      {console.log("Katakana", dataObjectKata)}
       <h1 className="tc calisto">Japanese Writing Quiz</h1>
       <div>
         <div className="tc">
