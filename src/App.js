@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import "./style.css";
+import Navbar from "./Components/Navbar";
 import Card from "./Components/Card";
 import Timer from "./Components/Timer";
 import Hiragana from "./Components/Data/Data.json";
@@ -54,59 +55,86 @@ export default function App() {
   };
 
   return (
-    <div className="w-100">
-      <h1 className="tc calisto">Japanese Writing Quiz</h1>
-      <div>
-        <div className="tc">
-          {hiraganaState && (
-            <Card
-              name={randomResult2}
-              hira={dataObjectHira[prepHira]["image"]}
-            />
-          )}
-          {KatakanaState && (
-            <Card
-              name={randomResult3}
-              hira={dataObjectKata[prepKata]["image"]}
-            />
-          )}
-        </div>
-
-        <form
-          onSubmit={(event) => {
-            dataResult(event);
-          }}
-        >
-          <div class="ma2 tc">
-            <input type="text" name="searchText" />
-            <button className="ma2">Next</button>
+    <div className="bg-secondary bg-gradient vh-100">
+      <Navbar />
+      <div className="w-100">
+        <h1 className="text-center calisto">Japanese Writing Quiz</h1>
+        <div>
+          <div className="text-center">
+            {hiraganaState && (
+              <Card
+                name={randomResult2}
+                hira={dataObjectHira[prepHira]["image"]}
+              />
+            )}
+            {KatakanaState && (
+              <Card
+                name={randomResult3}
+                hira={dataObjectKata[prepKata]["image"]}
+              />
+            )}
           </div>
-        </form>
 
-        <div className="ma2 tc">
-          <p>
-            Correct Answers: <span className="green">{correctCount}</span>
-          </p>
-          <p>
-            Wrong Answers: <span className="red">{wrongCount}</span>
-          </p>
-        </div>
-        <div className="tc calisto">
-          {hiraganaState && (
-            <button onClick={(event) => WritingToggle(event)}>
-              Switch to Katakana
+          <form
+            onSubmit={(event) => {
+              dataResult(event);
+            }}
+          >
+            {" "}
+            <div className="container col-md-3">
+              <div class="ma2 text-center input-group">
+                <input
+                  type="text"
+                  name="searchText"
+                  className="form-control"
+                  aria-describedby="button-addon2"
+                />
+                <button className="btn btn-success" id="button-addon2">
+                  Next
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div className="ma2 text-center">
+            <p>
+              Correct Answers:{" "}
+              <span className="badge rounded-pill bg-secondary border border-light green">
+                {correctCount}
+              </span>
+            </p>
+            <p>
+              Wrong Answers:{" "}
+              <span className="badge rounded-pill bg-secondary border border-light red">
+                {wrongCount}
+              </span>
+            </p>
+          </div>
+          <div className="text-center calisto">
+            {hiraganaState && (
+              <button
+                className="btn btn-secondary"
+                onClick={(event) => WritingToggle(event)}
+              >
+                Switch to Katakana
+              </button>
+            )}
+            {KatakanaState && (
+              <button
+                className="btn btn-secondary"
+                onClick={(event) => WritingToggle(event)}
+              >
+                Switch to Hiragana
+              </button>
+            )}
+            {/* {KatakanaState && <p className="red">Under Construction!</p>} */}
+          </div>
+          <div className="text-center ma3">
+            <button className="btn btn-info" onClick={correct1}>
+              Timer
             </button>
-          )}
-          {KatakanaState && (
-            <button onClick={(event) => WritingToggle(event)}>
-              Switch to Hiragana
-            </button>
-          )}
-          {/* {KatakanaState && <p className="red">Under Construction!</p>} */}
-        </div>
-        <div className="tc ma3">
-          <button onClick={correct1}>Timer</button>
-          {correct && <Timer />}
+            {correct && <Timer />}
+          </div>
         </div>
       </div>
     </div>

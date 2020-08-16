@@ -20,15 +20,20 @@ export default function Card(props) {
             alt="img"
           />
 
-          {!disabledText && <h1 class="f4 ttc">{props.name}</h1>}
-          {disabledText && <h1 class="f4 ttc hideText">{props.name}</h1>}
+          {!disabledText && <h1 class="form-control f4 ttc">{props.name}</h1>}
+          {disabledText && (
+            <h1 class="form-control f4 ttc hideText">{props.name}</h1>
+          )}
 
-          <hr class="mw3 bb bw1 b--black-10" />
+          {/* <hr class="mw3 bb bw1 b--black-10" /> */}
         </div>
       </article>
       <div className="ma2 tl tc">
         {/* <button onClick={toggleText} className="shadow-3">Toggle Romanji</button> */}
-        <button onClick={() => setdisabledText(!disabledText)}>
+        <button
+          onClick={() => setdisabledText(!disabledText)}
+          className="btn btn-secondary"
+        >
           Toggle Romanji
         </button>
       </div>
