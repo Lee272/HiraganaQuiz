@@ -20,9 +20,12 @@ const dataObjectKata = Katakana;
 
 // Functions
 
-// Randomizer - Object
-const prep = Math.floor(Math.random()*dataObject["length"])
-const randomResult2 = dataObject[prep]["name"]
+  // Randomizer - Object Hiragana
+  const prepHira = Math.floor(Math.random() * dataObjectHira["length"]);
+  const randomResult2 = dataObjectHira[prepHira]["name"];
+  // Randomizer - Object Katakana
+  const prepKata = Math.floor(Math.random() * dataObjectKata["length"]);
+  const randomResult3 = dataObjectKata[prepKata]["name"];
 
 // Get Data from Textbox & Verify it
 const dataResult = (event) => {
