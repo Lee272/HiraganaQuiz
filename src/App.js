@@ -4,16 +4,19 @@ import './style.css';
 import Card from './Components/Card';
 import Timer from './Components/Timer';
 import Hiragana from './Components/Data/Data.json';
-// import Katakana from './Components/Data/Katakana.json';
+import Katakana from "./Components/Data/Katakana.json";
 
 export default function App() {
 // Variables
-const dataObject = Hiragana;
+const dataObjectHira = Hiragana;
+const dataObjectKata = Katakana;
 // States
-const [correctCount, setcorrectCount] = useState(0);
-const  [wrongCount, setwrongCount] = useState(0);
-const [wip, setwip] = useState(false);
-const [correct, setcorrect] = useState(false);
+  const [correctCount, setcorrectCount] = useState(0);
+  const [wrongCount, setwrongCount] = useState(0);
+  const [hiraganaState, setHiraganaState] = useState(true);
+  const [KatakanaState, setKatakanaState] = useState(false);
+  const [correct, setcorrect] = useState(false);
+  const [heldScoreArray, setheldScoreArray] = useState([]);
 
 // Functions
 
