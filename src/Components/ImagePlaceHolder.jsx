@@ -35,7 +35,7 @@ const Data = ['ichi', 'ni', 'san', 'yon', 'go', 'rokku'];
 //     }
 // ]
 // Functions
-const randomResult = 
+const randomResult =
     Data[Math.floor(Math.random()*Data.length)]
 
     return(
