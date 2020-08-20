@@ -15,7 +15,7 @@ const dataObjectKata = Katakana;
   const [correctCount, setcorrectCount] = useState(0);
   const [wrongCount, setwrongCount] = useState(0);
   const [hiraganaState, setHiraganaState] = useState(true);
-  const [KatakanaState, setKatakanaState] = useState(false);
+  const [katakanaState, setKatakanaState] = useState(false);
   const [correct, setcorrect] = useState(false);
   const [heldScoreArray, setheldScoreArray] = useState([]);
 
