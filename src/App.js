@@ -103,6 +103,20 @@ const correct1 = () => {
                 </div>
               </div>
             </form>
+            <div className="ma2 text-center">
+              <p>
+                Correct Answers:{" "}
+                <span className="badge rounded-pill bg-secondary border border-light green">
+                  {correctCount}
+                </span>
+              </p>
+              <p>
+                Wrong Answers:{" "}
+                <span className="badge rounded-pill bg-secondary border border-light red">
+                  {wrongCount}
+                </span>
+              </p>
+            </div>
     
     
     
