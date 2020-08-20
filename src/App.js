@@ -78,7 +78,7 @@ const correct1 = () => {
                   hira={dataObjectHira[prepHira]["image"]}
                 />
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <Card
                   name={randomResult3}
                   hira={dataObjectKata[prepKata]["image"]}
