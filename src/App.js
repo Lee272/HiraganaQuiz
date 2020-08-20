@@ -126,7 +126,7 @@ const correct1 = () => {
                   Switch to Katakana
                 </button>
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <button
                   className="btn btn-secondary shadow border border-dark"
                   onClick={(event) => WritingToggle(event)}
