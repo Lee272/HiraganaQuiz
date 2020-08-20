@@ -159,59 +159,7 @@ const correct1 = () => {
     </div>
     
     
-    <div className="w-100">
-      <h1 className="tc calisto">Hiragana Quiz</h1>
-      <div>
-            <div className="text-center">
-              {hiraganaState && (
-                <Card
-                  name={randomResult2}
-                  hira={dataObjectHira[prepHira]["image"]}
-                />
-              )}
-              {katakanaState && (
-                <Card
-                  name={randomResult3}
-                  hira={dataObjectKata[prepKata]["image"]}
-                />
-              )}
-            </div>
-
-        <form onSubmit={event => {dataResult(event)}}>
-          <div class="ma2 tc">
-            <input type="text" name="searchText" />
-            <button className="ma2">Next</button>
-          </div>
-        </form>
-
-        <div className="ma2 tc">
-          <p>Correct Answers: <span className="green">{correctCount}</span></p>
-          <p>Wrong Answers: <span className="red">{wrongCount}</span></p>
-        </div>
-            <div className="text-center calisto">
-              {hiraganaState && (
-                <button
-                  className="btn btn-secondary shadow border border-dark"
-                  onClick={(event) => WritingToggle(event)}
-                >
-                  Switch to Katakana
-                </button>
-              )}
-              {katakanaState && (
-                <button
-                  className="btn btn-secondary shadow border border-dark"
-                  onClick={(event) => WritingToggle(event)}
-                >
-                  Switch to Hiragana
-                </button>
-              )}
-            </div>
-        <div className="tc ma3">
-          <button onClick={correct1}>Timer</button>
-          {correct && <Timer />}
-        </div>
-      </div>
-    </div>
+    
       
 </React.Fragment>
     
