@@ -117,6 +117,24 @@ const correct1 = () => {
                 </span>
               </p>
             </div>
+            <div className="text-center calisto">
+              {hiraganaState && (
+                <button
+                  className="btn btn-secondary shadow border border-dark"
+                  onClick={(event) => WritingToggle(event)}
+                >
+                  Switch to Katakana
+                </button>
+              )}
+              {KatakanaState && (
+                <button
+                  className="btn btn-secondary shadow border border-dark"
+                  onClick={(event) => WritingToggle(event)}
+                >
+                  Switch to Hiragana
+                </button>
+              )}
+            </div>
     
     
     
