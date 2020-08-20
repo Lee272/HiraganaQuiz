@@ -5,8 +5,7 @@ import Card from './Components/Card';
 import Timer from './Components/Timer';
 import Hiragana from './Components/Data/Data.json';
 import Katakana from "./Components/Data/Katakana.json";
-// import Navbar from "./Components/Navbar";
-// import Scoreboard from "./Components/Scoreboard";
+
 
 export default function App() {
 // Variables
@@ -64,13 +63,11 @@ const correct1 = () => {
     // Background
     <div className="bg-secondary bg-gradient vh-100">
       {/* NAVIGATION BAR */}
-//       <Navbar />
+
       <div className="row m-0">
         {/* Column One */}
         {/* SCOREBOARD */}
-        <div className="col-md-2 order-2 order-md-1 p-0">
-//           <Scoreboard scoreValue={heldScoreArray} />
-        </div>
+
         {/* End of Column One */}
         {/* Column Two */}
         <div className="col-md-8 order-1 order-md-2">
