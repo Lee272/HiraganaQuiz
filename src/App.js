@@ -44,9 +44,8 @@ export default function App() {
 
   // Verifications
   const correct1 = () => {
-    if (correctCount > 1) {
-      setcorrect(true);
-    }
+    setcorrect(true);
+    setcorrectCount(0);
   };
 
   // Writing Change
