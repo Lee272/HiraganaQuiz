@@ -11,18 +11,20 @@ export default function Card(props) {
 
   return (
     <div>
-      <article class="mw5 ma2 bg-white br3 pa3 pa4-ns mv3 ba b--black-10 center shadow-4">
-        <div class="tc">
+      <article className="mw5 ma2 bg-white br3 pa3 pa4-ns mv3 ba b--black-10 center shadow-4">
+        <div className="tc">
           <img
             src={props.hira}
-            class="br-100 h3 w3 dib"
+            className="br-100 h3 w3 dib"
             title="hiragana-ho"
             alt="img"
           />
 
-          {!disabledText && <h1 class="form-control f4 ttc">{props.name}</h1>}
+          {!disabledText && (
+            <h1 className="form-control f4 ttc">{props.name}</h1>
+          )}
           {disabledText && (
-            <h1 class="form-control f4 ttc hideText">{props.name}</h1>
+            <h1 className="form-control f4 ttc hideText">{props.name}</h1>
           )}
 
           {/* <hr class="mw3 bb bw1 b--black-10" /> */}
@@ -32,7 +34,7 @@ export default function Card(props) {
         {/* <button onClick={toggleText} className="shadow-3">Toggle Romanji</button> */}
         <button
           onClick={() => setdisabledText(!disabledText)}
-          className="btn btn-secondary"
+          className="btn btn-secondary shadow border border-dark"
         >
           Toggle Romanji
         </button>

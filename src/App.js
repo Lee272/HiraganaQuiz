@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+
 import "./App.css";
 import "./style.css";
+
 import Navbar from "./Components/Navbar";
+import Scoreboard from "./Components/Scoreboard";
 import Card from "./Components/Card";
 import Timer from "./Components/Timer";
 import Hiragana from "./Components/Data/Data.json";
@@ -17,8 +20,11 @@ export default function App() {
   const [hiraganaState, setHiraganaState] = useState(true);
   const [KatakanaState, setKatakanaState] = useState(false);
   const [correct, setcorrect] = useState(false);
+  const [heldScoreArray, setheldScoreArray] = useState([]);
+  // let score = correctCount;
 
   // Functions
+  // Session Start
 
   // Randomizer - Object Hiragana
   const prepHira = Math.floor(Math.random() * dataObjectHira["length"]);
@@ -42,9 +48,8 @@ export default function App() {
 
   // Verifications
   const correct1 = () => {
-    if (correctCount === 0) {
-      setcorrect(true);
-    }
+    setcorrect(true);
+    setcorrectCount(0);
   };
 
   // Writing Change
@@ -53,89 +58,109 @@ export default function App() {
     setHiraganaState(!hiraganaState);
     setKatakanaState(!KatakanaState);
   };
+  // End of Timer Callback & Score Push to Array
+  const callbackParent = () => {
+    setcorrect(false);
+    setheldScoreArray((heldScoreArray) => [...heldScoreArray, correctCount]);
+  };
 
   return (
+    // Background
     <div className="bg-secondary bg-gradient vh-100">
+      {/* NAVIGATION BAR */}
       <Navbar />
-      <div className="w-100">
-        <h1 className="text-center calisto">Japanese Writing Quiz</h1>
-        <div>
-          <div className="text-center">
-            {hiraganaState && (
-              <Card
-                name={randomResult2}
-                hira={dataObjectHira[prepHira]["image"]}
-              />
-            )}
-            {KatakanaState && (
-              <Card
-                name={randomResult3}
-                hira={dataObjectKata[prepKata]["image"]}
-              />
-            )}
-          </div>
-
-          <form
-            onSubmit={(event) => {
-              dataResult(event);
-            }}
-          >
-            {" "}
-            <div className="container col-md-3">
-              <div class="ma2 text-center input-group">
-                <input
-                  type="text"
-                  name="searchText"
-                  className="form-control"
-                  aria-describedby="button-addon2"
+      <div className="row m-0">
+        {/* Column One */}
+        {/* SCOREBOARD */}
+        <div className="col-md-2 order-2 order-md-1 p-0">
+          <Scoreboard scoreValue={heldScoreArray} />
+        </div>
+        {/* End of Column One */}
+        {/* Column Two */}
+        <div className="col-md-8 order-1 order-md-2">
+          <h1 className="text-center calisto">Japanese Writing Quiz</h1>
+          <div>
+            <div className="text-center">
+              {hiraganaState && (
+                <Card
+                  name={randomResult2}
+                  hira={dataObjectHira[prepHira]["image"]}
                 />
-                <button className="btn btn-success" id="button-addon2">
-                  Next
-                </button>
-              </div>
+              )}
+              {KatakanaState && (
+                <Card
+                  name={randomResult3}
+                  hira={dataObjectKata[prepKata]["image"]}
+                />
+              )}
             </div>
-          </form>
 
-          <div className="ma2 text-center">
-            <p>
-              Correct Answers:{" "}
-              <span className="badge rounded-pill bg-secondary border border-light green">
-                {correctCount}
-              </span>
-            </p>
-            <p>
-              Wrong Answers:{" "}
-              <span className="badge rounded-pill bg-secondary border border-light red">
-                {wrongCount}
-              </span>
-            </p>
-          </div>
-          <div className="text-center calisto">
-            {hiraganaState && (
+            <form
+              onSubmit={(event) => {
+                dataResult(event);
+              }}
+            >
+              {" "}
+              <div className="container col-md-3">
+                <div className="ma2 text-center input-group">
+                  <input
+                    type="text"
+                    name="searchText"
+                    className="form-control"
+                    aria-describedby="button-addon2"
+                  />
+                  <button className="btn btn-success" id="button-addon2">
+                    Next
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <div className="ma2 text-center">
+              <p>
+                Correct Answers:{" "}
+                <span className="badge rounded-pill bg-secondary border border-light green">
+                  {correctCount}
+                </span>
+              </p>
+              <p>
+                Wrong Answers:{" "}
+                <span className="badge rounded-pill bg-secondary border border-light red">
+                  {wrongCount}
+                </span>
+              </p>
+            </div>
+            <div className="text-center calisto">
+              {hiraganaState && (
+                <button
+                  className="btn btn-secondary shadow border border-dark"
+                  onClick={(event) => WritingToggle(event)}
+                >
+                  Switch to Katakana
+                </button>
+              )}
+              {KatakanaState && (
+                <button
+                  className="btn btn-secondary shadow border border-dark"
+                  onClick={(event) => WritingToggle(event)}
+                >
+                  Switch to Hiragana
+                </button>
+              )}
+            </div>
+            <div className="text-center ma3">
               <button
-                className="btn btn-secondary"
-                onClick={(event) => WritingToggle(event)}
+                tooltip="TEST"
+                className="btn btn-info shadow border border-dark"
+                onClick={correct1}
               >
-                Switch to Katakana
+                <span>Challenge (30sec)</span>
               </button>
-            )}
-            {KatakanaState && (
-              <button
-                className="btn btn-secondary"
-                onClick={(event) => WritingToggle(event)}
-              >
-                Switch to Hiragana
-              </button>
-            )}
-            {/* {KatakanaState && <p className="red">Under Construction!</p>} */}
-          </div>
-          <div className="text-center ma3">
-            <button className="btn btn-info" onClick={correct1}>
-              Timer
-            </button>
-            {correct && <Timer />}
+              {correct && <Timer parentCall={callbackParent} />}
+            </div>
           </div>
         </div>
+        {/* End of Column 2 */}
       </div>
     </div>
   );

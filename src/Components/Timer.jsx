@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 
-export default function Timer() {
+export default function Timer({ parentCall }) {
   // States
-  const [counter, setCounter] = useState(20);
+  const [counter, setCounter] = useState(30);
   const [end, setend] = useState(false);
 
   //Effect
+  // Functions
   React.useEffect(() => {
     if (counter === 0) {
       setend(true);
+      parentCall();
+    } else {
+      counter > 0 && setTimeout(() => setCounter(counter - 1), 1000);
     }
-  }, [counter]);
-
-  // Functions
-  React.useEffect(() => {
-    counter > 0 && setTimeout(() => setCounter(counter - 1), 1000);
-  }, [counter]);
+  }, [counter, parentCall]);
 
   return (
     <div>
-      <div className="tc ma3">Countdown: {counter}</div>
-      {end && <h1>Stop</h1>}
+      <div className="text-center ma3">Countdown: {counter}</div>
+      {end && <h1 className="calisto">Stop!</h1>}
     </div>
   );
 }
