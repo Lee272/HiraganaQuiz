@@ -18,7 +18,7 @@ export default function App() {
   const [correctCount, setcorrectCount] = useState(0);
   const [wrongCount, setwrongCount] = useState(0);
   const [hiraganaState, setHiraganaState] = useState(true);
-  const [KatakanaState, setKatakanaState] = useState(false);
+  const [katakanaState, setKatakanaState] = useState(false);
   const [correct, setcorrect] = useState(false);
   const [heldScoreArray, setheldScoreArray] = useState([]);
 
@@ -54,7 +54,7 @@ export default function App() {
   const WritingToggle = (event) => {
     event.preventDefault();
     setHiraganaState(!hiraganaState);
-    setKatakanaState(!KatakanaState);
+    setKatakanaState(!katakanaState);
   };
   // End of Timer Callback & Score Push to Array
   const callbackParent = () => {
@@ -136,7 +136,7 @@ export default function App() {
                   Switch to Katakana
                 </button>
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <button
                   className="btn btn-secondary shadow border border-dark"
                   onClick={(event) => WritingToggle(event)}
