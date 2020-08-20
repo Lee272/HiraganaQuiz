@@ -21,7 +21,6 @@ export default function App() {
   const [KatakanaState, setKatakanaState] = useState(false);
   const [correct, setcorrect] = useState(false);
   const [heldScoreArray, setheldScoreArray] = useState([]);
-  // let score = correctCount;
 
   // Functions
 
