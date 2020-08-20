@@ -61,14 +61,37 @@ const correct1 = () => {
 
 
   return (
+    <React.Fragment>
     <div className="bg-secondary bg-gradient vh-100">
       <Navbar />
       <div className="row m-0">
         <div className="col-md-2 order-2 order-md-1 p-0">
           <Scoreboard scoreValue={heldScoreArray} />
         </div>
+        <div className="col-md-8 order-1 order-md-2">
+          <h1 className="text-center calisto">Japanese Writing Quiz</h1>
+          <div>
+            <div className="text-center">
+              {hiraganaState && (
+                <Card
+                  name={randomResult2}
+                  hira={dataObjectHira[prepHira]["image"]}
+                />
+              )}
+              {KatakanaState && (
+                <Card
+                  name={randomResult3}
+                  hira={dataObjectKata[prepKata]["image"]}
+                />
+              )}
+             </div>
     
-
+    
+    
+          </div>
+        </div>
+      </div>
+    </div>
     
     
     <div className="w-100">
@@ -125,8 +148,7 @@ const correct1 = () => {
       </div>
     </div>
       
-      </div>
-    </div>
+</React.Fragment>
     
   );
 }
