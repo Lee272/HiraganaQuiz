@@ -5,8 +5,8 @@ import Card from './Components/Card';
 import Timer from './Components/Timer';
 import Hiragana from './Components/Data/Data.json';
 import Katakana from "./Components/Data/Katakana.json";
-import Navbar from "./Components/Navbar";
-import Scoreboard from "./Components/Scoreboard";
+// import Navbar from "./Components/Navbar";
+// import Scoreboard from "./Components/Scoreboard";
 
 export default function App() {
 // Variables
