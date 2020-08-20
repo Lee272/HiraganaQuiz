@@ -6,7 +6,7 @@ import Timer from './Components/Timer';
 import Hiragana from './Components/Data/Data.json';
 import Katakana from "./Components/Data/Katakana.json";
 import Navbar from "./Components/Navbar";
-
+import Scoreboard from "./Components/Scoreboard";
 
 export default function App() {
 // Variables
@@ -63,6 +63,14 @@ const correct1 = () => {
   return (
     <div className="bg-secondary bg-gradient vh-100">
       <Navbar />
+      <div className="row m-0">
+        <div className="col-md-2 order-2 order-md-1 p-0">
+          <Scoreboard scoreValue={heldScoreArray} />
+        </div>
+    
+      </div>
+    </div>
+    
     
     <div className="w-100">
       <h1 className="tc calisto">Hiragana Quiz</h1>
@@ -118,6 +126,6 @@ const correct1 = () => {
       </div>
     </div>
            
-    </div>
+    
   );
 }
