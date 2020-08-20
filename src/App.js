@@ -5,6 +5,7 @@ import Card from './Components/Card';
 import Timer from './Components/Timer';
 import Hiragana from './Components/Data/Data.json';
 import Katakana from "./Components/Data/Katakana.json";
+import Navbar from "./Components/Navbar";
 
 
 export default function App() {
@@ -61,6 +62,7 @@ const correct1 = () => {
 
   return (
     <div className="bg-secondary bg-gradient vh-100">
+      <Navbar />
     
     <div className="w-100">
       <h1 className="tc calisto">Hiragana Quiz</h1>
