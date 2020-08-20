@@ -68,8 +68,7 @@ const correct1 = () => {
           <Scoreboard scoreValue={heldScoreArray} />
         </div>
     
-      </div>
-    </div>
+
     
     
     <div className="w-100">
@@ -125,7 +124,9 @@ const correct1 = () => {
         </div>
       </div>
     </div>
-           
+      
+      </div>
+    </div>
     
   );
 }
