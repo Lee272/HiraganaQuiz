@@ -98,7 +98,6 @@ export default function App() {
                 dataResult(event);
               }}
             >
-              {" "}
               <div className="container col-md-3">
                 <div className="ma2 text-center input-group">
                   <input
@@ -161,5 +160,5 @@ export default function App() {
         {/* End of Column 2 */}
       </div>
     </div>
-  );
+  )
 }
