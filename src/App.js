@@ -60,6 +60,8 @@ const correct1 = () => {
 
 
   return (
+    <div className="bg-secondary bg-gradient vh-100">
+    
     <div className="w-100">
       <h1 className="tc calisto">Hiragana Quiz</h1>
       <div>
@@ -112,6 +114,8 @@ const correct1 = () => {
           {correct && <Timer />}
         </div>
       </div>
+    </div>
+           
     </div>
   );
 }
