@@ -15,7 +15,7 @@ const dataObjectKata = Katakana;
   const [correctCount, setcorrectCount] = useState(0);
   const [wrongCount, setwrongCount] = useState(0);
   const [hiraganaState, setHiraganaState] = useState(true);
-  const [KatakanaState, setKatakanaState] = useState(false);
+  const [katakanaState, setKatakanaState] = useState(false);
   const [correct, setcorrect] = useState(false);
   const [heldScoreArray, setheldScoreArray] = useState([]);
 
@@ -54,7 +54,7 @@ const correct1 = () => {
   const WritingToggle = (event) => {
     event.preventDefault();
     setHiraganaState(!hiraganaState);
-    setKatakanaState(!KatakanaState);
+    setKatakanaState(!katakanaState);
   }
   
 
@@ -80,7 +80,7 @@ const correct1 = () => {
                   hira={dataObjectHira[prepHira]["image"]}
                 />
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <Card
                   name={randomResult3}
                   hira={dataObjectKata[prepKata]["image"]}
@@ -132,7 +132,7 @@ const correct1 = () => {
                   Switch to Katakana
                 </button>
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <button
                   className="btn btn-secondary shadow border border-dark"
                   onClick={(event) => WritingToggle(event)}
