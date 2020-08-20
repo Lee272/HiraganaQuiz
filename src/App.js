@@ -57,9 +57,21 @@ const correct1 = () => {
   }
 
   return (
-    <div className="w-100">
-      <h1 className="tc calisto">Hiragana Quiz</h1>
-      <div>
+    // Background
+    <div className="bg-secondary bg-gradient vh-100">
+      {/* NAVIGATION BAR */}
+//       <Navbar />
+      <div className="row m-0">
+        {/* Column One */}
+        {/* SCOREBOARD */}
+        <div className="col-md-2 order-2 order-md-1 p-0">
+//           <Scoreboard scoreValue={heldScoreArray} />
+        </div>
+        {/* End of Column One */}
+        {/* Column Two */}
+        <div className="col-md-8 order-1 order-md-2">
+          <h1 className="text-center calisto">Japanese Writing Quiz</h1>
+          <div>
             <div className="text-center">
               {hiraganaState && (
                 <Card
@@ -75,17 +87,41 @@ const correct1 = () => {
               )}
             </div>
 
-        <form onSubmit={event => {dataResult(event)}}>
-          <div class="ma2 tc">
-            <input type="text" name="searchText" />
-            <button className="ma2">Next</button>
-          </div>
-        </form>
+            <form
+              onSubmit={(event) => {
+                dataResult(event);
+              }}
+            >
+              {" "}
+              <div className="container col-md-3">
+                <div className="ma2 text-center input-group">
+                  <input
+                    type="text"
+                    name="searchText"
+                    className="form-control"
+                    aria-describedby="button-addon2"
+                  />
+                  <button className="btn btn-success" id="button-addon2">
+                    Next
+                  </button>
+                </div>
+              </div>
+            </form>
 
-        <div className="ma2 tc">
-          <p>Correct Answers: <span className="green">{correctCount}</span></p>
-          <p>Wrong Answers: <span className="red">{wrongCount}</span></p>
-        </div>
+            <div className="ma2 text-center">
+              <p>
+                Correct Answers:{" "}
+                <span className="badge rounded-pill bg-secondary border border-light green">
+                  {correctCount}
+                </span>
+              </p>
+              <p>
+                Wrong Answers:{" "}
+                <span className="badge rounded-pill bg-secondary border border-light red">
+                  {wrongCount}
+                </span>
+              </p>
+            </div>
             <div className="text-center calisto">
               {hiraganaState && (
                 <button
@@ -104,10 +140,18 @@ const correct1 = () => {
                 </button>
               )}
             </div>
-        <div className="tc ma3">
-          <button onClick={correct1}>Timer</button>
-          {correct && <Timer />}
+            <div className="text-center ma3">
+              <button
+                className="btn btn-info shadow border border-dark"
+//                 onClick={correct1}
+              >
+                <span>Challenge (30sec)</span>
+              </button>
+//               {correct && <Timer parentCall={callbackParent} />}
+            </div>
+          </div>
         </div>
+        {/* End of Column 2 */}
       </div>
     </div>
   );
