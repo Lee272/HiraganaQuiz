@@ -70,7 +70,7 @@ const correct1 = () => {
                   hira={dataObjectHira[prepHira]["image"]}
                 />
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <Card
                   name={randomResult3}
                   hira={dataObjectKata[prepKata]["image"]}
@@ -98,7 +98,7 @@ const correct1 = () => {
                   Switch to Katakana
                 </button>
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <button
                   className="btn btn-secondary shadow border border-dark"
                   onClick={(event) => WritingToggle(event)}
