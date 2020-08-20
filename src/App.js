@@ -135,6 +135,16 @@ const correct1 = () => {
                 </button>
               )}
             </div>
+            <div className="text-center ma3">
+              <button
+                tooltip="TEST"
+                className="btn btn-info shadow border border-dark"
+                onClick={correct1}
+              >
+                <span>Challenge (30sec)</span>
+              </button>
+              {correct && <Timer parentCall={callbackParent} />}
+            </div>
     
     
     
