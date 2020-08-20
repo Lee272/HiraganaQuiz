@@ -85,6 +85,24 @@ const correct1 = () => {
                 />
               )}
              </div>
+            <form onSubmit={(event) => {
+                dataResult(event);
+                }}
+            >
+              <div className="container col-md-3">
+                <div className="ma2 text-center input-group">
+                  <input
+                    type="text"
+                    name="searchText"
+                    className="form-control"
+                    aria-describedby="button-addon2"
+                  />
+                  <button className="btn btn-success" id="button-addon2">
+                    Next
+                  </button>
+                </div>
+              </div>
+            </form>
     
     
     
