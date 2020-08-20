@@ -53,9 +53,20 @@ const correct1 = () => {
     <div className="w-100">
       <h1 className="tc calisto">Hiragana Quiz</h1>
       <div>
-        <div className="tc">
-            <Card name={randomResult2} hira={dataObject[prep]["image"]} />
-        </div>
+            <div className="text-center">
+              {hiraganaState && (
+                <Card
+                  name={randomResult2}
+                  hira={dataObjectHira[prepHira]["image"]}
+                />
+              )}
+              {KatakanaState && (
+                <Card
+                  name={randomResult3}
+                  hira={dataObjectKata[prepKata]["image"]}
+                />
+              )}
+            </div>
 
         <form onSubmit={event => {dataResult(event)}}>
           <div class="ma2 tc">
