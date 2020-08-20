@@ -35,7 +35,7 @@ export default function App() {
     const dataSearched = event.target.searchText.value.toLowerCase().trim();
     event.target.reset();
 
-    if (dataSearched === randomResult2) {
+    if (dataSearched === randomResult2 || dataSearched === randomResult3) {
       return setcorrectCount(correctCount + 1);
     } else {
       return setwrongCount(wrongCount + 1);
