@@ -1,3 +1,0 @@
-//Function
-
-Rewrite Timer / remove functions from useEffect
