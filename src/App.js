@@ -49,6 +49,13 @@ const correct1 = () => {
   }
 }
 
+// Writing Change
+  const WritingToggle = (event) => {
+    event.preventDefault();
+    setHiraganaState(!hiraganaState);
+    setKatakanaState(!KatakanaState);
+  }
+
   return (
     <div className="w-100">
       <h1 className="tc calisto">Hiragana Quiz</h1>
