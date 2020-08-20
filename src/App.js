@@ -5,8 +5,7 @@ import Card from './Components/Card';
 import Timer from './Components/Timer';
 import Hiragana from './Components/Data/Data.json';
 import Katakana from "./Components/Data/Katakana.json";
-import Navbar from "./Components/Navbar";
-import Scoreboard from "./Components/Scoreboard";
+
 
 export default function App() {
 // Variables
@@ -58,11 +57,7 @@ const correct1 = () => {
     setKatakanaState(!KatakanaState);
   }
   
-  // End of Timer Callback & Score Push to Array
-  const callbackParent = () => {
-    setcorrect(false);
-    setheldScoreArray((heldScoreArray) => [...heldScoreArray, correctCount]);
-  }
+
 
   return (
     // Background
@@ -155,7 +150,7 @@ const correct1 = () => {
               >
                 <span>Challenge (30sec)</span>
               </button>
-//               {correct && <Timer parentCall={callbackParent} />}
+//               {correct && <Timer />}
             </div>
           </div>
         </div>
