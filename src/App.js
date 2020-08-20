@@ -58,6 +58,11 @@ const correct1 = () => {
     setKatakanaState(!katakanaState);
   }
   
+  // End of Timer Callback & Score Push to Array
+  const callbackParent = () => {
+    setcorrect(false);
+    setheldScoreArray((heldScoreArray) => [...heldScoreArray, correctCount]);
+  };
 
 
   return (
