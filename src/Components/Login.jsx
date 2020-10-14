@@ -19,7 +19,7 @@ export default function Login(usernameCall) {
           aria-label="Password"
         />
         <button type="submit" name="login_submit" className="btn btn-secondary">
-          Login
+          Login2
         </button>
       </div>
     </form>

@@ -21,6 +21,7 @@ export default function App() {
   const [katakanaState, setKatakanaState] = useState(false);
   const [correct, setcorrect] = useState(false);
   const [heldScoreArray, setheldScoreArray] = useState([]);
+  const [heldUserName, setHeldUserName] = useState([]);
 
   // Functions
 
@@ -85,7 +86,7 @@ export default function App() {
                   hira={dataObjectHira[prepHira]["image"]}
                 />
               )}
-              {KatakanaState && (
+              {katakanaState && (
                 <Card
                   name={randomResult3}
                   hira={dataObjectKata[prepKata]["image"]}
@@ -160,5 +161,5 @@ export default function App() {
         {/* End of Column 2 */}
       </div>
     </div>
-  )
+  );
 }

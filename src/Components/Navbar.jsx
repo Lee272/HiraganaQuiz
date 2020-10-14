@@ -1,15 +1,19 @@
 import React, { useState } from "react";
-// import Login from "./Login";
 
 export default function Navbar() {
-  const [user, setUser] = useState("");
-
+  const [user, setUser] = useState({ Name: "", Password: "" });
+  const [loggedIn, setLoggedIn] = useState(false);
+  console.log("Login Details", user);
+  console.log("Login State", loggedIn);
   // Username Grab
   const loginSubmit = (event) => {
     event.preventDefault();
-    setUser(event.target.username.value);
+    setUser({
+      Name: event.target.username.value,
+      Password: event.target.password.value,
+    });
+    setLoggedIn(true);
     // localStorage.setItem("currentUser", event.target.username.value);
-    // console.log("Data", user);
   };
 
   return (
@@ -18,38 +22,51 @@ export default function Navbar() {
         <div className="col-md-9">
           <span className="navbar-brand mb-0">Hiragana / Katakana</span>
         </div>
-
-        <form
-          onSubmit={(event) => {
-            loginSubmit(event);
-          }}
-          className="col-md-3"
-        >
-          <div className="input-group input-group-sm">
-            <input
-              className="form-control mr-2"
-              type="text"
-              name="username"
-              placeholder="Username"
-              aria-label="Username"
-            />
-            <input
-              className="form-control mr-2"
-              type="text"
-              name="password"
-              placeholder="Password"
-              aria-label="Password"
-            />
+        {/* Login Form */}
+        {!loggedIn && (
+          <form
+            onSubmit={(event) => {
+              loginSubmit(event);
+            }}
+            className="col-md-3"
+          >
+            <div className="input-group input-group-sm">
+              <input
+                className="form-control mr-2"
+                type="text"
+                name="username"
+                placeholder="Username"
+                aria-label="Username"
+              />
+              <input
+                className="form-control mr-2"
+                type="text"
+                name="password"
+                placeholder="Password"
+                aria-label="Password"
+              />
+              <button
+                type="submit"
+                name="login_submit"
+                className="btn btn-secondary"
+              >
+                Login
+              </button>
+            </div>
+          </form>
+        )}
+        {loggedIn && (
+          <div>
+            <p>Current User: {user.Name}</p>
             <button
               type="submit"
-              name="login_submit"
               className="btn btn-secondary"
+              onClick={() => setLoggedIn(false)}
             >
-              Login
+              Logout
             </button>
           </div>
-          <p>WIP: Current User: {user}</p>
-        </form>
+        )}
       </div>
     </nav>
   );
