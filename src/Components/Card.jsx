@@ -6,7 +6,7 @@ export default function Card(props) {
   const [disabledText, setdisabledText] = useState("true");
 
   // Functions
-  // Toggle Romanji Text
+  // Toggle Romaji Text
   // const toggleText = () => { setdisabledText(!disabledText); }
 
   return (
@@ -31,7 +31,7 @@ export default function Card(props) {
         </div>
       </article>
       <div className="ma2 tl tc">
-        {/* <button onClick={toggleText} className="shadow-3">Toggle Romanji</button> */}
+        {/* <button onClick={toggleText} className="shadow-3">Toggle Romaji</button> */}
         <button
           onClick={() => setdisabledText(!disabledText)}
           className="btn btn-secondary shadow border border-dark"
