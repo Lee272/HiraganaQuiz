@@ -36,7 +36,7 @@ export default function Card(props) {
           onClick={() => setdisabledText(!disabledText)}
           className="btn btn-secondary shadow border border-dark"
         >
-          Toggle Romanji
+          Toggle Romaji
         </button>
       </div>
     </div>
